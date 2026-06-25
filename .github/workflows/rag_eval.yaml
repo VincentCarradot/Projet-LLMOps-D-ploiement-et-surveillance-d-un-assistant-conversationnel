@@ -1,0 +1,41 @@
+name: RAG evaluation
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 2 * * 1"
+
+jobs:
+  rag-eval:
+    name: Evaluate RAG
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: |
+            requirements.txt
+            requirements_tests.txt
+
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-rag-eval-${{ hashFiles('src/**/*.py') }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements_tests.txt
+
+      - name: Run RAG evaluation
+        run: python evaluation/evaluer_rag.py --fail-on-threshold
+
+      - name: Upload evaluation report
+        uses: actions/upload-artifact@v4
+        with:
+          name: rapport-eval-rag
+          path: evaluation/rapport_eval.json
+

@@ -1,0 +1,54 @@
+{
+  "title": "Assistant RAG - LLMOps",
+  "schemaVersion": 39,
+  "version": 1,
+  "panels": [
+    {
+      "type": "timeseries",
+      "title": "Latence p95 /generate",
+      "targets": [
+        {
+          "expr": "histogram_quantile(0.95, rate(http_request_duration_seconds_bucket{handler=\"/generate\"}[5m]))"
+        }
+      ],
+      "gridPos": {"x": 0, "y": 0, "w": 12, "h": 8}
+    },
+    {
+      "type": "timeseries",
+      "title": "Débit de requêtes",
+      "targets": [
+        {
+          "expr": "rate(http_requests_total[5m])"
+        }
+      ],
+      "gridPos": {"x": 12, "y": 0, "w": 12, "h": 8}
+    },
+    {
+      "type": "timeseries",
+      "title": "Documents RAG par requête",
+      "targets": [
+        {
+          "expr": "rate(rag_docs_retrieved_total[5m]) / clamp_min(rate(http_requests_total{handler=\"/generate\"}[5m]), 0.001)"
+        }
+      ],
+      "gridPos": {"x": 0, "y": 8, "w": 12, "h": 8}
+    },
+    {
+      "type": "timeseries",
+      "title": "Retrieval vs génération LLM",
+      "targets": [
+        {
+          "expr": "rate(rag_retrieval_duration_seconds_sum[5m]) / rate(rag_retrieval_duration_seconds_count[5m])",
+          "legendFormat": "retrieval"
+        },
+        {
+          "expr": "rate(llm_generation_duration_seconds_sum[5m]) / rate(llm_generation_duration_seconds_count[5m])",
+          "legendFormat": "generation"
+        }
+      ],
+      "gridPos": {"x": 12, "y": 8, "w": 12, "h": 8}
+    }
+  ],
+  "time": {"from": "now-1h", "to": "now"}
+}
+

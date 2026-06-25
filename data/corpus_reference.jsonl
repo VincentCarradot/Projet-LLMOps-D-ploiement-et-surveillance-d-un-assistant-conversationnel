@@ -1,0 +1,20 @@
+{"prompt":"Quel est le délai pour retourner un article ?","longueur_prompt":8,"longueur_reponse":17,"nb_docs_rag_trouves":3}
+{"prompt":"Je veux renvoyer une commande reçue hier.","longueur_prompt":7,"longueur_reponse":17,"nb_docs_rag_trouves":3}
+{"prompt":"Comment suivre mon colis après expédition ?","longueur_prompt":6,"longueur_reponse":14,"nb_docs_rag_trouves":3}
+{"prompt":"Où trouver le lien de suivi de ma commande ?","longueur_prompt":9,"longueur_reponse":14,"nb_docs_rag_trouves":3}
+{"prompt":"Puis-je changer l'adresse de livraison ?","longueur_prompt":6,"longueur_reponse":13,"nb_docs_rag_trouves":2}
+{"prompt":"Ma commande n'est pas expédiée, je veux modifier l'adresse.","longueur_prompt":10,"longueur_reponse":13,"nb_docs_rag_trouves":2}
+{"prompt":"Sous combien de jours arrive le remboursement ?","longueur_prompt":7,"longueur_reponse":14,"nb_docs_rag_trouves":3}
+{"prompt":"Livrez-vous en Espagne ?","longueur_prompt":4,"longueur_reponse":15,"nb_docs_rag_trouves":2}
+{"prompt":"Mon colis est arrivé abîmé, que dois-je faire ?","longueur_prompt":9,"longueur_reponse":19,"nb_docs_rag_trouves":3}
+{"prompt":"Comment annuler une commande passée maintenant ?","longueur_prompt":6,"longueur_reponse":16,"nb_docs_rag_trouves":2}
+{"prompt":"Vendez-vous des cartes cadeau ?","longueur_prompt":5,"longueur_reponse":13,"nb_docs_rag_trouves":2}
+{"prompt":"J'ai perdu mon mot de passe.","longueur_prompt":6,"longueur_reponse":15,"nb_docs_rag_trouves":2}
+{"prompt":"Comment télécharger ma facture ?","longueur_prompt":5,"longueur_reponse":12,"nb_docs_rag_trouves":2}
+{"prompt":"Quelle garantie couvre les produits ?","longueur_prompt":5,"longueur_reponse":11,"nb_docs_rag_trouves":2}
+{"prompt":"Ce produit est-il encore en stock ?","longueur_prompt":7,"longueur_reponse":12,"nb_docs_rag_trouves":2}
+{"prompt":"Puis-je échanger une taille trop petite ?","longueur_prompt":7,"longueur_reponse":18,"nb_docs_rag_trouves":3}
+{"prompt":"Comment joindre le support client ?","longueur_prompt":5,"longueur_reponse":16,"nb_docs_rag_trouves":2}
+{"prompt":"Comment utiliser mes points fidélité ?","longueur_prompt":5,"longueur_reponse":14,"nb_docs_rag_trouves":2}
+{"prompt":"Quels sont les horaires du support ?","longueur_prompt":6,"longueur_reponse":16,"nb_docs_rag_trouves":2}
+{"prompt":"Où consulter la disponibilité d'un produit ?","longueur_prompt":6,"longueur_reponse":12,"nb_docs_rag_trouves":2}

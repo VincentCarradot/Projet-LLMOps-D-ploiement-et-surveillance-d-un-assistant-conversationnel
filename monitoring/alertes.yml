@@ -1,0 +1,21 @@
+groups:
+  - name: rag-alerts
+    rules:
+      - alert: LatenceGenerateElevee
+        expr: histogram_quantile(0.95, rate(http_request_duration_seconds_bucket{handler="/generate"}[5m])) > 5
+        for: 3m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Latence p95 élevée sur /generate"
+          description: "La latence p95 de /generate dépasse 5 secondes depuis 3 minutes."
+
+      - alert: RetrievalLent
+        expr: histogram_quantile(0.95, rate(rag_retrieval_duration_seconds_bucket[5m])) > 1
+        for: 3m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Recherche RAG lente"
+          description: "La recherche vectorielle dépasse 1 seconde au p95."
+

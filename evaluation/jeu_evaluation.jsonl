@@ -1,0 +1,18 @@
+{"id":"eval-01","question":"Sous quel délai puis-je retourner un article ?","reponse_reference":"Un article peut être retourné sous 30 jours après réception.","docs_pertinents":["faq-01"]}
+{"id":"eval-02","question":"Comment suivre l'expédition de ma commande ?","reponse_reference":"Un email avec un lien de suivi est envoyé dès l'expédition.","docs_pertinents":["faq-02"]}
+{"id":"eval-03","question":"Est-ce que je peux changer mon adresse de livraison ?","reponse_reference":"L'adresse peut être modifiée seulement si la commande n'est pas encore expédiée.","docs_pertinents":["faq-03"]}
+{"id":"eval-04","question":"Quand vais-je recevoir mon remboursement ?","reponse_reference":"Le remboursement est effectué sous 5 à 10 jours ouvrés après réception du retour.","docs_pertinents":["faq-04"]}
+{"id":"eval-05","question":"Quels sont les délais de livraison internationale ?","reponse_reference":"Les livraisons internationales prennent entre 7 et 15 jours ouvrés selon la destination.","docs_pertinents":["faq-05"]}
+{"id":"eval-06","question":"Mon colis est arrivé endommagé, que dois-je faire ?","reponse_reference":"Il faut prendre des photos et contacter le support sous 48 heures.","docs_pertinents":["faq-06"]}
+{"id":"eval-07","question":"Puis-je annuler une commande validée ?","reponse_reference":"Une commande peut être annulée dans les 2 heures suivant sa validation.","docs_pertinents":["faq-07"]}
+{"id":"eval-08","question":"Avez-vous des cartes cadeau ?","reponse_reference":"Oui, des cartes cadeau de 10 à 200 euros sont disponibles.","docs_pertinents":["faq-08"]}
+{"id":"eval-09","question":"Comment réinitialiser mon mot de passe ?","reponse_reference":"Utilisez le lien mot de passe oublié pour recevoir un email de réinitialisation.","docs_pertinents":["faq-09"]}
+{"id":"eval-10","question":"Où récupérer ma facture ?","reponse_reference":"La facture est disponible dans l'espace client après expédition.","docs_pertinents":["faq-10"]}
+{"id":"eval-11","question":"Quelle garantie s'applique aux produits ?","reponse_reference":"Les produits ont une garantie légale de conformité de 2 ans.","docs_pertinents":["faq-11"]}
+{"id":"eval-12","question":"Comment vérifier la disponibilité d'un produit ?","reponse_reference":"La disponibilité est indiquée sur chaque fiche produit.","docs_pertinents":["faq-12"]}
+{"id":"eval-13","question":"Je veux échanger un article contre une autre taille.","reponse_reference":"L'échange de taille est possible sous 30 jours si l'article est non porté.","docs_pertinents":["faq-13"]}
+{"id":"eval-14","question":"Comment joindre votre service client ?","reponse_reference":"Le support est joignable par formulaire, chat ou téléphone du lundi au vendredi.","docs_pertinents":["faq-14"]}
+{"id":"eval-15","question":"Comment gagner des points fidélité ?","reponse_reference":"Chaque achat rapporte des points fidélité convertibles en bons de réduction.","docs_pertinents":["faq-15"]}
+{"id":"eval-16","question":"Quelle météo fera-t-il demain à Marseille ?","reponse_reference":"Je n'ai pas l'information.","docs_pertinents":[]}
+{"id":"eval-17","question":"Peux-tu me donner une recette de crêpes ?","reponse_reference":"Je n'ai pas l'information.","docs_pertinents":[]}
+{"id":"eval-18","question":"Qui a gagné la finale de football hier ?","reponse_reference":"Je n'ai pas l'information.","docs_pertinents":[]}
